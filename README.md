@@ -35,7 +35,7 @@
             justify-content: center;
             position: fixed;
             width: 100%;
-            top: 60px; /* Tinggi header + padding */
+            top: 60px;
             z-index: 1000;
             animation: slideInDown 1s ease-out;
         }
@@ -53,9 +53,9 @@
 
         /* Main content */
         main {
-            padding-top: 120px; /* Tinggi header + navigasi */
-            text-align: left; /* Teks konten utama rata kiri */
-            margin-top: 80px; /* Untuk memberi ruang di atas konten pertama */
+            padding-top: 160px;
+            text-align: left;
+            margin-top: 20px;
             animation: slideInUp 1s ease-out;
         }
 
@@ -66,7 +66,7 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            max-width: 800px; /* Maksimum lebar bagian agar tetap terbaca dengan baik */
+            max-width: 800px;
             animation: fadeIn 1s ease-out;
         }
 
@@ -95,13 +95,13 @@
             nav {
                 flex-direction: column;
                 align-items: center;
-                top: 100px; /* Tinggi header + padding */
+                top: 100px;
             }
             nav a {
                 margin-bottom: 10px;
             }
             main {
-                padding-top: 180px; /* Tinggi header + navigasi */
+                padding-top: 200px;
             }
         }
 
@@ -166,7 +166,7 @@
             <p>Mempelajari dasar-dasar bahasa Prancis.</p>
             <ul>
                 <li>Mengenal jenis kelamin kata benda (Féminin, masculin et jamak)</li>
-                <li>...</li> <!-- Isi ulangannya -->
+                <!-- Tambahan isi -->
             </ul>
         </section>
         <section id="conversation">
@@ -174,7 +174,7 @@
             <p>Berikut adalah beberapa contoh percakapan sehari-hari dalam bahasa Prancis.</p>
             <ul>
                 <li>Salut, comment ça va? (Halo, apa kabar?)</li>
-                <li>...</li> <!-- Isi ulangannya -->
+                <!-- Tambahan isi -->
             </ul>
         </section>
         <section id="culture">
@@ -184,9 +184,8 @@
                 <li>Masakan khas Prancis</li>
                 <ul>
                     <li><strong>Coq au Vin</strong></li>
-                    <li>Coq au Vin adalah salah satu hidangan klasik dari Prancis yang terkenal di seluruh dunia. Secara harfiah berarti "ayam dengan anggur," hidangan ini memiliki akar yang dalam di wilayah Burgundy, terkenal dengan anggurnya yang berkualitas tinggi. Awalnya, hidangan ini dibuat untuk memanfaatkan ayam jantan tua yang dagingnya lebih keras, dimasak perlahan dalam anggur merah untuk melembutkannya.</li>
-                    <li>Hidangan ini mencerminkan gaya memasak tradisional Prancis yang menekankan penggunaan bahan lokal yang segar dan teknik memasak yang tepat untuk menghasilkan rasa yang dalam dan kompleks. Ada berbagai variasi regional, seperti Coq au Vin Blanc dari Alsace yang menggunakan anggur putih.</li>
-                    <li><a href="path/to/image.jpg"><img src="path/to/image.jpg" alt="Deskripsi gambar" width="300" height="200"></a></li>
+                    <li>Coq au Vin adalah salah satu hidangan klasik dari Prancis yang terkenal di seluruh dunia.</li>
+                    <li><img src="/file/626981510edfaee6ad10c.jpg" alt="Deskripsi gambar" width="300" height="200"></li>
                 </ul>
             </ul>
         </section>
@@ -195,7 +194,7 @@
             <p>Rekomendasi aplikasi, website, dan buku untuk belajar bahasa Prancis.</p>
             <ul>
                 <li>Duolingo</li>
-                <li>...</li> <!-- Isi ulangannya -->
+                <!-- Tambahan isi -->
             </ul>
         </section>
     </main>
